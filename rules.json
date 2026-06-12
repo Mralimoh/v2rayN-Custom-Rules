@@ -1,0 +1,44 @@
+[
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true,
+    "remarks": "Bypass LAN IP"
+  },
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "Bypass LAN"
+  },
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:ir"
+    ],
+    "enabled": true,
+    "remarks": "Direct IR IP"
+  },
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:ir"
+    ],
+    "enabled": true,
+    "remarks": "Direct IR Site"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "enabled": true,
+    "remarks": "Default Proxy"
+  }
+]
