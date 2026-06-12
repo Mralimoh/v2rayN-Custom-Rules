@@ -33,7 +33,7 @@
       "geosite:ir"
     ],
     "enabled": true,
-    "remarks": "Direct IR Site"
+    "remarks": "Direct IR"
   },
   {
     "port": "0-65535",
